@@ -372,12 +372,12 @@ body {
 } */
 
 .team-social-icon {
-  fill: currentColor;
+  fill: #afb1b8;
 }
 
 .team-icon-link:hover .team-social-icon,
 .team-icon-link:focus .team-social-icon {
-  color: var(--button-white-color);
+  fill: var(--button-white-color);
 }
 
 .team-icon-link:hover,
@@ -441,8 +441,8 @@ body {
   border: 1px solid var(--accent-color);
 }
 
-.clients-list-item:hover .clients-icon,
-.clients-list-item:focus .clients-icon {
+.clients-item-link:hover .clients-icon,
+.clients-item-link:focus .clients-icon {
   fill: var(--accent-color);
 }
 .clients-item-link {
